@@ -1,0 +1,68 @@
+<main>
+  <div>
+    <span class="pill" id="total-contracts">Kontra: …</span>
+    <span class="pill" id="total-paid">Peye: …</span>
+    <span class="pill" id="total-balance">Balans: …</span>
+  </div>
+
+  <!-- Filtre pa seksyon -->
+  <div style="margin-top:20px; margin-bottom:10px;">
+    <button class="pill filter-btn" data-section="ALL">Tout</button>
+    <button class="pill filter-btn" data-section="Trompette">Trompette</button>
+    <button class="pill filter-btn" data-section="Bariton">Bariton</button>
+    <button class="pill filter-btn" data-section="Trombone">Trombone</button>
+    <button class="pill filter-btn" data-section="Bass">Bass</button>
+    <button class="pill filter-btn" data-section="Tambour">Tambour</button>
+    <button class="pill filter-btn" data-section="Samba">Samba</button>
+    <button class="pill filter-btn" data-section="Percussion">Percussion</button>
+  </div>
+
+  <!-- Chèche -->
+  <div style="margin-bottom:10px;">
+    <input id="search-input" type="text" placeholder="Chèche pa non..." style="padding:6px 8px; width:240px; border-radius:4px; border:1px solid #333; background:#000; color:#f5f5f5;">
+  </div>
+
+  <!-- Tab mizisyen yo -->
+  <h2 class="section-title">Tout Mizisyen</h2>
+  <table id="musicians-table">
+    <thead>
+      <tr>
+        <th>Non</th>
+        <th>Seksyon</th>
+        <th>Enstriman</th>
+        <th>Kontra</th>
+        <th>Peye</th>
+        <th>Balans</th>
+        <th>Foto</th>
+        <th>Akisyon</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <!-- Fòm Ajoute / Edit -->
+  <h2 class="section-title">Ajoute / Modifye Mizisyen</h2>
+  <form id="musician-form">
+    <div style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:8px;">
+      <input name="id" placeholder="ID (san espas)" style="flex:1; padding:6px;">
+      <input name="name" placeholder="Non konplè" style="flex:2; padding:6px;">
+      <input name="instrument" placeholder="Enstriman" style="flex:1; padding:6px;">
+      <input name="section" placeholder="Seksyon (Trompette, Bass…)" style="flex:1; padding:6px;">
+    </div>
+    <div style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:8px;">
+      <input name="contract" type="number" placeholder="Kontra (Gdes)" style="flex:1; padding:6px;">
+      <input name="paid" type="number" placeholder="Peye (Gdes)" style="flex:1; padding:6px;">
+      <input name="balance" type="number" placeholder="Balans (Gdes)" style="flex:1; padding:6px;">
+      <input name="season" placeholder="Sezon (eg. 2026)" style="flex:1; padding:6px;">
+    </div>
+    <div style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:8px;">
+      <input name="photoUrl" placeholder="Foto URL (opsyonèl)" style="flex:2; padding:6px;">
+    </div>
+    <button type="submit" style="padding:6px 12px; background:#FF8C42; border:none; color:#000; font-weight:600; border-radius:4px; cursor:pointer;">
+      Sove mizisyen
+    </button>
+    <button type="button" id="reset-form" style="padding:6px 12px; background:#333; border:none; color:#fff; border-radius:4px; cursor:pointer; margin-left:6px;">
+      Reyajiste
+    </button>
+  </form>
+</main>
