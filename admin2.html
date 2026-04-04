@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ht">
+<head>
+  <meta charset="UTF-8">
+  <title>BSS 1815 – Admin Panel 2 (TEST)</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #FF8C42;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      background: #222;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+
+    table th, table td {
+      border: 1px solid #444;
+      padding: 8px;
+      text-align: left;
+    }
+
+    table th {
+      background: #333;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 8px;
+      margin: 5px 0 10px;
+      border-radius: 5px;
+      border: none;
+    }
+
+    button {
+      padding: 8px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      background: #FF8C42;
+      color: #000;
+      font-weight: bold;
+    }
+
+    .filter-btn {
+      margin-right: 5px;
+      background: #444;
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>BSS 1815 – Admin Panel 2 (TEST)</h1>
+
+  <div class="container">
+
+    <!-- SEARCH -->
+    <input type="text" id="search-input" placeholder="Chèche mizisyen…">
+
+    <!-- FILTERS -->
+    <div>
+      <button class="filter-btn" data-section="ALL">Tout</button>
+      <button class="filter-btn" data-section="CHANTE">Chante</button>
+      <button class="filter-btn" data-section="TAMBOUR">Tanbou</button>
+      <button class="filter-btn" data-section="GITAR">Gitar</button>
+      <button class="filter-btn" data-section="PIANO">Piano</button>
+    </div>
+
+    <!-- TABLE -->
+    <table id="musicians-table">
+      <thead>
+        <tr>
+          <th>Non</th>
+          <th>Seksyon</th>
+          <th>Enstriman</th>
+          <th>Kontra</th>
+          <th>Peye</th>
+          <th>Balans</th>
+          <th>Foto</th>
+          <th>Aksyon</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <!-- TOTALS -->
+    <p id="total-contracts"></p>
+    <p id="total-paid"></p>
+    <p id="total-balance"></p>
+
+    <hr>
+
+    <!-- FORM -->
+    <h2>Ajoute / Modifye Mizisyen</h2>
+
+    <form id="musician-form">
+      <input type="text" name="id" placeholder="ID (san espas)">
+      <input type="text" name="name" placeholder="Non mizisyen an">
+      <input type="text" name="instrument" placeholder="Enstriman">
+      <select name="section">
+        <option value="">Chwazi Seksyon</option>
+        <option value="CHANTE">Chante</option>
+        <option value="TAMBOUR">Tanbou</option>
+        <option value="GITAR">Gitar</option>
+        <option value="PIANO">Piano</option>
+      </select>
+
+      <input type="number" name="contract" placeholder="Kontra (Gdes)">
+      <input type="number" name="paid" placeholder="Peye (Gdes)">
+      <input type="number" name="balance" placeholder="Balans (Gdes)">
+      <input type="text" name="season" placeholder="Sezon (ex: 2026)">
+      <input type="text" name="photoUrl" placeholder="URL foto (otomatik si ou upload)">
+
+      <label style="color:#FF8C42;">Upload Foto:</label>
+      <input type="file" id="photo-file" accept="image/*">
+
+      <button type="submit">SOVE</button>
+      <button type="button" id="reset-form">REYAJISTE</button>
+    </form>
+
+  </div>
+
+  <!-- SCRIPT FINAL -->
+  <script type="module" src="admin-dashboard-final.js"></script>
+
+</body>
+</html>
