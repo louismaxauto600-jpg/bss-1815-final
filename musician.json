@@ -1,0 +1,437 @@
+[
+  {
+    "id": "jean-fritzner-petit-homme",
+    "name": "Jean Fritzner Petit Homme",
+    "instrument": "Trompette",
+    "section": "Trompette",
+    "contract": 130000,
+    "paid": 45000,
+    "balance": 85000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+  {
+    "id": "petit-frere-claudy",
+    "name": "Petit Frère Claudy",
+    "instrument": "Trompette",
+    "section": "Trompette",
+    "contract": 80000,
+    "paid": 25000,
+    "balance": 55000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+  {
+    "id": "francique-jean-baptiste",
+    "name": "Francique Jean Baptiste",
+    "instrument": "Trompette",
+    "section": "Trompette",
+    "contract": 100000,
+    "paid": 25000,
+    "balance": 75000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+  {
+    "id": "jean-merguy-blanc",
+    "name": "Jean Merguy Blanc",
+    "instrument": "Trompette",
+    "section": "Trompette",
+    "contract": 121000,
+    "paid": 25000,
+    "balance": 96000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+  {
+    "id": "alexandro-civil-tp",
+    "name": "Alexandro Civil",
+    "instrument": "Trompette",
+    "section": "Trompette",
+    "contract": 75000,
+    "paid": 30000,
+    "balance": 45000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+  {
+    "id": "y-guers",
+    "name": "Y Guers",
+    "instrument": "Trompette",
+    "section": "Trompette",
+    "contract": 110000,
+    "paid": 50000,
+    "balance": 60000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+
+  {
+    "id": "jean-jackson-francique",
+    "name": "Jean Jackson Francique",
+    "instrument": "Bariton",
+    "section": "Bariton",
+    "contract": 300000,
+    "paid": 163000,
+    "balance": 137000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+  {
+    "id": "berteau-mirtyl",
+    "name": "Berteau Mirtyl",
+    "instrument": "Bariton",
+    "section": "Bariton",
+    "contract": 153000,
+    "paid": 25000,
+    "balance": 128000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+
+  {
+    "id": "roland-salomon",
+    "name": "Roland Salomon",
+    "instrument": "Trombone",
+    "section": "Trombone",
+    "contract": 285000,
+    "paid": 150000,
+    "balance": 135000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+  {
+    "id": "sonel-pierre",
+    "name": "Sonel Pierre",
+    "instrument": "Trombone",
+    "section": "Trombone",
+    "contract": 100000,
+    "paid": 20000,
+    "balance": 80000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+  {
+    "id": "montis-moliere",
+    "name": "Montis Molière",
+    "instrument": "Trombone",
+    "section": "Trombone",
+    "contract": 120000,
+    "paid": 30000,
+    "balance": 90000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+  {
+    "id": "pierre-galioth",
+    "name": "Pierre Galioth",
+    "instrument": "Trombone",
+    "section": "Trombone",
+    "contract": 65000,
+    "paid": 20000,
+    "balance": 45000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+  {
+    "id": "billy-blaise",
+    "name": "Billy Blaise",
+    "instrument": "Trombone",
+    "section": "Trombone",
+    "contract": 100000,
+    "paid": 50000,
+    "balance": 50000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+  {
+    "id": "julien-donalson",
+    "name": "Julien Donalson",
+    "instrument": "Trombone",
+    "section": "Trombone",
+    "contract": 150000,
+    "paid": 75000,
+    "balance": 75000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+  {
+    "id": "moril-jean-fritz",
+    "name": "Moril Jean Fritz",
+    "instrument": "Trombone",
+    "section": "Trombone",
+    "contract": 100000,
+    "paid": 10000,
+    "balance": 90000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+  {
+    "id": "jean-jerry",
+    "name": "Jean Jerry",
+    "instrument": "Trombone",
+    "section": "Trombone",
+    "contract": 65000,
+    "paid": 25000,
+    "balance": 40000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+  {
+    "id": "dallas-kervens",
+    "name": "Dallas Kervens",
+    "instrument": "Trombone",
+    "section": "Trombone",
+    "contract": 75000,
+    "paid": 20000,
+    "balance": 55000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+  {
+    "id": "jean-steedor",
+    "name": "Jean Steedor",
+    "instrument": "Trombone",
+    "section": "Trombone",
+    "contract": 75000,
+    "paid": 27500,
+    "balance": 47500,
+    "season": "2026",
+    "photoUrl": ""
+  },
+  {
+    "id": "jean-steeder",
+    "name": "Jean Steeder",
+    "instrument": "Trombone",
+    "section": "Trombone",
+    "contract": 75000,
+    "paid": 27500,
+    "balance": 47500,
+    "season": "2026",
+    "photoUrl": ""
+  },
+  {
+    "id": "jean-fritz",
+    "name": "Jean Fritz",
+    "instrument": "Trombone",
+    "section": "Trombone",
+    "contract": 70000,
+    "paid": 20000,
+    "balance": 50000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+  {
+    "id": "alexandro-civil-tb",
+    "name": "Alexandro Civil",
+    "instrument": "Trombone",
+    "section": "Trombone",
+    "contract": 75000,
+    "paid": 30000,
+    "balance": 45000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+
+  {
+    "id": "sylvestre-lindor-didy",
+    "name": "Sylvestre Lindor (Didy)",
+    "instrument": "Bass",
+    "section": "Bass",
+    "contract": 225000,
+    "paid": 75000,
+    "balance": 150000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+  {
+    "id": "paul-georges-edouard",
+    "name": "Paul Georges Edouard",
+    "instrument": "Bass",
+    "section": "Bass",
+    "contract": 225000,
+    "paid": 80000,
+    "balance": 145000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+
+  {
+    "id": "auguste-lesmy",
+    "name": "Auguste Lesmy",
+    "instrument": "Tambour",
+    "section": "Tambour",
+    "contract": 30000,
+    "paid": 10000,
+    "balance": 20000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+  {
+    "id": "jackson-bonny",
+    "name": "Jackson Bonny",
+    "instrument": "Tambour",
+    "section": "Tambour",
+    "contract": 75000,
+    "paid": 30000,
+    "balance": 45000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+  {
+    "id": "jean-james",
+    "name": "Jean James",
+    "instrument": "Tambour",
+    "section": "Tambour",
+    "contract": 90000,
+    "paid": 50000,
+    "balance": 40000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+  {
+    "id": "jean-bernard-st-villus",
+    "name": "Jean Bernard St Villus",
+    "instrument": "Tambour",
+    "section": "Tambour",
+    "contract": 70000,
+    "paid": 25000,
+    "balance": 45000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+
+  {
+    "id": "phedel-etienne",
+    "name": "Phedel Etienne",
+    "instrument": "Samba",
+    "section": "Samba",
+    "contract": 95000,
+    "paid": 16000,
+    "balance": 79000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+  {
+    "id": "felito-jacques",
+    "name": "Felito Jacques",
+    "instrument": "Samba",
+    "section": "Samba",
+    "contract": 120000,
+    "paid": 40000,
+    "balance": 80000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+  {
+    "id": "micaisse-antoine",
+    "name": "Micaisse Antoine",
+    "instrument": "Samba",
+    "section": "Samba",
+    "contract": 100000,
+    "paid": 25000,
+    "balance": 75000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+
+  {
+    "id": "louis-kenddy-tyap",
+    "name": "Louis Kenddy (Tyap)",
+    "instrument": "Percussion",
+    "section": "Percussion",
+    "contract": 30000,
+    "paid": 7500,
+    "balance": 22500,
+    "season": "2026",
+    "photoUrl": ""
+  },
+  {
+    "id": "jn-louis-j-abner-caisse",
+    "name": "Jn Louis J Abner (Caisse)",
+    "instrument": "Percussion",
+    "section": "Percussion",
+    "contract": 30000,
+    "paid": 7500,
+    "balance": 22500,
+    "season": "2026",
+    "photoUrl": ""
+  },
+  {
+    "id": "wanel-philemon",
+    "name": "Wanel Philémon",
+    "instrument": "Percussion",
+    "section": "Percussion",
+    "contract": 45000,
+    "paid": 15000,
+    "balance": 30000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+  {
+    "id": "joseph-enel-ti-bambou",
+    "name": "Joseph Enel (Ti Bambou)",
+    "instrument": "Percussion",
+    "section": "Percussion",
+    "contract": 45000,
+    "paid": 15000,
+    "balance": 30000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+  {
+    "id": "fritzner-pascal-ti-bambou",
+    "name": "Fritzner Pascal (Ti Bambou)",
+    "instrument": "Percussion",
+    "section": "Percussion",
+    "contract": 45000,
+    "paid": 15000,
+    "balance": 30000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+  {
+    "id": "germain-evens-colonel",
+    "name": "Germain Evens (Colonel)",
+    "instrument": "Percussion",
+    "section": "Percussion",
+    "contract": 45000,
+    "paid": 15000,
+    "balance": 30000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+  {
+    "id": "wesnel-larose-bambou",
+    "name": "Wesnel Larose (Bambou)",
+    "instrument": "Percussion",
+    "section": "Percussion",
+    "contract": 50000,
+    "paid": 25000,
+    "balance": 25000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+  {
+    "id": "frantz-joanie-bambou",
+    "name": "Frantz Joanie (Bambou)",
+    "instrument": "Percussion",
+    "section": "Percussion",
+    "contract": 40000,
+    "paid": 25000,
+    "balance": 15000,
+    "season": "2026",
+    "photoUrl": ""
+  },
+  {
+    "id": "edson-doidier-bambou",
+    "name": "Edson Doidier (Bambou)",
+    "instrument": "Percussion",
+    "section": "Percussion",
+    "contract": 40000,
+    "paid": 17500,
+    "balance": 22500,
+    "season": "2026",
+    "photoUrl": ""
+  }
+]
