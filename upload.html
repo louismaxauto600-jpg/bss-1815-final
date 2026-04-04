@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BSS 1815 Upload Portal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #000000, #ff8c00);
+      color: white;
+      text-align: center;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 30px;
+      background: rgba(0,0,0,0.75);
+      border-bottom: 2px solid #ff8c00;
+    }
+
+    h1 {
+      color: #ffb347;
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .upload-box {
+      margin-top: 60px;
+      background: rgba(0,0,0,0.55);
+      padding: 40px;
+      max-width: 450px;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 15px;
+      box-shadow: 0 0 25px rgba(0,0,0,0.4);
+      border: 1px solid rgba(255,140,0,0.4);
+    }
+
+    .upload-box h2 {
+      color: #ffb347;
+      margin-bottom: 20px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-top: 12px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+
+    input[type="file"] {
+      background: white;
+      color: black;
+      padding: 10px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px 20px;
+      background: #ff8c00;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+      color: black;
+      font-size: 1rem;
+      transition: 0.3s ease;
+    }
+
+    button:hover {
+      background: #ffb347;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>BSS 1815 — Document Upload</h1>
+</header>
+
+<div class="upload-box">
+
+  <h2>Upload Your Document</h2>
+
+  <input type="text" placeholder="Your Name">
+
+  <input type="email" placeholder="Email">
+
+  <input type="file">
+
+  <textarea placeholder="Message (optional)" rows="4"></textarea>
+
+  <button>Submit Document</button>
+
+</div>
+
+</body>
+</html>
