@@ -1,52 +1,336 @@
-/* BSS 1815 Official Style */
+:root {
+  --bg-main: #000000;
+  --bg-panel: #111111;
+  --accent: #FF8C42;
+  --accent-soft: #FFB37A;
+  --text-main: #F5F5F5;
+  --text-muted: #AAAAAA;
+  --danger: #FF4B4B;
+  --success: #4CAF50;
+  --border-soft: #333333;
+  --pill-bg: #1A1A1A;
+  --pill-border: #FF8C42;
+  --font-main: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle at top, #1b1b1b 0, #000 55%);
+  color: var(--text-main);
+  font-family: var(--font-main);
+}
 
 body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Top bar */
+
+.top-bar {
+  padding: 16px 20px;
+  background: linear-gradient(90deg, #000000, #1b1b1b);
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.top-bar h1 {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: linear-gradient(to bottom, black, #ff8c00);
-  color: white;
+  font-size: 1.4rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  margin: 4px 0 0;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* Main shell */
+
+.main-shell {
+  flex: 1;
+  max-width: 1200px;
+  width: 100%;
+  margin: 16px auto 24px;
+  padding: 0 12px;
+}
+
+/* Pills & filters */
+
+.pill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--pill-border);
+  background: var(--pill-bg);
+  color: var(--accent-soft);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 10px 0 8px;
+}
+
+.filter-btn {
+  cursor: pointer;
+  border: 1px solid var(--border-soft);
+  background: #050505;
+  color: var(--text-main);
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.filter-btn.active {
+  background: var(--accent);
+  color: #000;
+  border-color: var(--accent);
+}
+
+/* Search */
+
+.search-row {
+  margin: 6px 0 12px;
+}
+
+#search-input {
+  padding: 6px 8px;
+  width: 260px;
+  max-width: 100%;
+  border-radius: 4px;
+  border: 1px solid var(--border-soft);
+  background: #000;
+  color: var(--text-main);
+  font-size: 0.85rem;
+}
+
+/* Panels */
+
+.panel {
+  background: var(--bg-panel);
+  border-radius: 10px;
+  border: 1px solid var(--border-soft);
+  padding: 12px 10px 14px;
+  margin-bottom: 14px;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.6);
+}
+
+.section-title {
+  margin: 0 0 10px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent-soft);
+}
+
+/* Table */
+
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+#musicians-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+}
+
+#musicians-table thead {
+  background: #151515;
+}
+
+#musicians-table th,
+#musicians-table td {
+  padding: 6px 8px;
+  border-bottom: 1px solid #222;
+  text-align: left;
+  white-space: nowrap;
+}
+
+#musicians-table th {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.7rem;
+  color: var(--text-muted);
+}
+
+#musicians-table tbody tr:nth-child(even) {
+  background: #080808;
+}
+
+#musicians-table tbody tr:hover {
+  background: #141414;
+}
+
+.badge-section {
+  display: inline-flex;
+  padding: 2px 6px;
+  border-radius: 999px;
+  border: 1px solid var(--accent-soft);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.money {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Foto */
+
+.musician-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  object-fit: cover;
+  border: 1px solid var(--accent-soft);
+}
+
+/* Actions */
+
+.action-btn {
+  padding: 3px 7px;
+  border-radius: 999px;
+  border: 1px solid var(--border-soft);
+  background: #050505;
+  color: var(--text-main);
+  font-size: 0.7rem;
+  cursor: pointer;
+  margin-right: 4px;
+}
+
+.action-btn.edit {
+  border-color: var(--accent);
+  color: var(--accent-soft);
+}
+
+.action-btn.delete {
+  border-color: var(--danger);
+  color: var(--danger);
+}
+
+/* Empty state */
+
+.empty-state {
+  margin-top: 8px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* Form */
+
+#musician-form {
+  margin-top: 4px;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+#musician-form input {
+  flex: 1;
+  min-width: 140px;
+  padding: 6px 8px;
+  border-radius: 4px;
+  border: 1px solid var(--border-soft);
+  background: #050505;
+  color: var(--text-main);
+  font-size: 0.8rem;
+}
+
+.form-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: #000;
+}
+
+.btn-secondary {
+  background: #333;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #ffa45f;
+}
+
+.btn-secondary:hover {
+  background: #444;
+}
+
+/* Form status */
+
+.form-status {
+  margin-top: 6px;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+/* Footer */
+
+.footer {
+  padding: 10px 16px;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border-soft);
   text-align: center;
 }
 
-header {
-  padding: 60px 20px;
-}
+/* Responsive */
 
-.logo {
-  width: 180px;
-  margin-bottom: 20px;
-}
+@media (max-width: 768px) {
+  .top-bar h1 {
+    font-size: 1.1rem;
+  }
 
-h1 {
-  font-size: 3em;
-  margin: 10px 0;
-  color: #ff8c00;
-}
+  .section-title {
+    font-size: 0.9rem;
+  }
 
-p {
-  font-size: 1.2em;
-  max-width: 700px;
-  margin: 20px auto;
-}
-
-nav {
-  margin-top: 30px;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 15px;
-  font-weight: bold;
-  font-size: 1.1em;
-}
-
-nav a:hover {
-  color: #ff8c00;
-}
-
-footer {
-  margin-top: 80px;
-  padding: 20px;
-  background: rgba(0,0,0,0.6);
+  #musicians-table th,
+  #musicians-table td {
+    padding: 5px 6px;
+  }
 }
